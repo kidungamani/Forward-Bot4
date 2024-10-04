@@ -4,8 +4,8 @@ pip install -U pip
 git pull
 pip install virtualenv
 
-git clone https://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@github.com/kidungamani/Forward-Bot fwd                  
-cd fwd
+git clone https://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@github.com/kidungamani/Forward-Bot4 fwd5                  
+cd fwd5
 python3 -m venv project-env
 source project-env/bin/activate
 pip install -U -r requirements.txt
@@ -15,6 +15,6 @@ apt install npm -y
 npm install pm2 -g
 
 # Start & Save pm2
-pm2 start "python bot.py" --name fwd
+pm2 start "python bot.py" --name fwd5
 pm2 save
 
